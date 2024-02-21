@@ -1,0 +1,24 @@
+/* // JavaScript code for property website functionalities */
+
+/* // Fetch property data from an API or database */
+function fetchProperties() {
+  // Code to fetch properties goes here
+}
+
+/* // Display property details when a property card is clicked */
+function displayPropertyDetails(propertyId) {
+  // Code to display property details goes here
+}
+
+ /* Event listener for property card click */
+document.addEventListener('click', function(event) {
+  if (event.target.classList.contains('property-card')) {
+    const propertyId = event.target.dataset.propertyId;
+    displayPropertyDetails(propertyId);
+  }
+});
+
+/* Fetch properties on page load */
+document.addEventListener('DOMContentLoaded', function() {
+  fetchProperties();
+});

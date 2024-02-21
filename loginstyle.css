@@ -1,0 +1,8 @@
+.container{
+    width: 100%;
+    background-image: url(images/backgrounds.jpg);
+    background-position:center;
+    background-size:cover;
+    font-size: 25px;
+    
+}
